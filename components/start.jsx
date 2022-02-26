@@ -3,10 +3,10 @@ import { useRouter } from "next/router"
 
 export default function Start() {
     const quests = [
-        { id: 1, title: 'Quest Name', description: 'Пока менестрели слагают баллады о прекрасных дамах, а рыцари бьются на турни...', imgSrc: './quest-1.jpg' },
-        { id: 2, title: 'Quest Name', description: 'Пока менестрели слагают баллады о прекрасных дамах, а рыцари бьются на турни...', imgSrc: './quest-2.jpg' },
-        { id: 3, title: 'Quest Name', description: 'Пока менестрели слагают баллады о прекрасных дамах, а рыцари бьются на турни...', imgSrc: './quest-3.jpg' },
-        { id: 4, title: 'Quest Name', description: 'Пока менестрели слагают баллады о прекрасных дамах, а рыцари бьются на турни...', imgSrc: './quest-4.jpg' },
+        { id: 1, title: 'The Wave', description: 'You have achieved everything you dreamed of, but your world is crumbling over a catastrophe...', imgSrc: './wave.png' },
+        { id: 2, title: 'President simulator', description: 'What kind of leader will you become?...', imgSrc: './president.png' },
+        { id: 3, title: 'In the face of danger', description: 'You found out about a catastrophe bound to happen in a year\'s time. What would you do...', imgSrc: './pandemic.png' },
+        { id: 4, title: 'First contact', description: 'What is reality? Seems like everyone has their own reality, but...', imgSrc: './first_contact.png' },
     ]
     const renderQuestCard = () => {
         const { basePath } = useRouter()

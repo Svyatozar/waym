@@ -15,7 +15,7 @@ export default function Invest() {
             buttonColor="#3AA76D"
             buttonHref="/token"
             title="Support the economics <br> based on intellectual <br> property"
-            text="Use our quest builder <br> to create stories easy and fast. <br> Release your creative potential <br> and get the reward."
+            text="First NFTs based on the <br> original stories. <br> Learn how it works <br> and grow fast with us."
             media={setMedia()}
         >
 
