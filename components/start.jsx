@@ -3,17 +3,17 @@ import { useRouter } from "next/router"
 
 export default function Start() {
     const quests = [
-        { id: 1, title: 'The Wave', description: 'You have achieved everything you dreamed of, but your world is crumbling over a catastrophe...', imgSrc: './wave.png' },
-        { id: 2, title: 'President simulator', description: 'What kind of leader will you become?...', imgSrc: './president.png' },
-        { id: 3, title: 'In the face of danger', description: 'You found out about a catastrophe bound to happen in a year\'s time. What would you do...', imgSrc: './pandemic.png' },
-        { id: 4, title: 'First contact', description: 'What is reality? Seems like everyone has their own reality, but...', imgSrc: './first_contact.png' },
+        { id: 1, title: 'The Wave', description: 'You have achieved everything you dreamed of, but your world is crumbling over a catastrophe...', imgSrc: './wave.png', url: 'https://web.waym.app/quest/279' },
+        { id: 2, title: 'President simulator', description: 'What kind of leader will you become?...', imgSrc: './president.png', url: 'https://web.waym.app/quest/306' },
+        { id: 3, title: 'In the face of danger', description: 'You found out about a catastrophe bound to happen in a year\'s time. What would you do...', imgSrc: './pandemic.png', url: 'https://web.waym.app/quest/268' },
+        { id: 4, title: 'First contact', description: 'What is reality? Seems like everyone has their own reality, but...', imgSrc: './first_contact.png', url: 'https://web.waym.app/quest/303' },
     ]
     const renderQuestCard = () => {
         const { basePath } = useRouter()
 
         return quests.map(v => {
             return (
-                <li key={v.id}>
+                <li key={v.id} href={v.url}>
                     <div className="start__image">
                         <img src={`${basePath}/${v.imgSrc}`} width={230} height={132} alt={v.title} />
                     </div>
@@ -41,7 +41,7 @@ export default function Start() {
                 <ul>
                     {renderQuestCard()}
                 </ul>
-                <MainButton title="See <br> more" stroke="#00D0FF" href="#" />
+                <MainButton title="See <br> more" stroke="#00D0FF" href="https://web.waym.app/quests" />
             </div>
 
 
