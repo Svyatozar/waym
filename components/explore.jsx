@@ -19,7 +19,7 @@ export default function Explore() {
       buttonTitle="Start exploring"
       mobileButtonTitle="Start"
       buttonColor="#00D0FF"
-      buttonHref="https://web.waym.app/quest/181"
+      buttonHref="https://web.waym.app/quest/279"
       title="Use your imagination to lose yourself in an infinite variety of text quests"
       text="Become the main character of the WAYM interactive story and make decisions to change the plot."
       childrenOutOfContainer={getChildrenOutOfContainer()}

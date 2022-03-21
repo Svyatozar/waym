@@ -27,7 +27,7 @@ export default function Promo() {
             sectionClass="promo"
             buttonTitle="Get <br> started"
             buttonColor="#ffffff"
-            buttonHref="https://web.waym.app/quest/181"
+            buttonHref="https://web.waym.app/quest/279"
             text="Find your own way through
                 our interactive text metaverse
                 created by its users."
