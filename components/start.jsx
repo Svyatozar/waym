@@ -19,7 +19,7 @@ export default function Start() {
                     <div className="start__image" >
                         <img src={`${basePath}/${v.imgSrc}`} width={230} height={132} alt={v.title} />
                     </div>
-                    <div className="start__text-border" >
+                    <div className="start__text-border">
                         <div className="start__text">
                             <h4>{v.title}</h4>
                             <p>{v.description}</p>
