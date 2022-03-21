@@ -4,9 +4,9 @@ import { useRouter } from "next/router"
 export default function Start() {
     const quests = [
         { id: 1, title: 'The Wave', description: 'You have achieved everything you dreamed of, but your world is ...', imgSrc: './wave.png', url: 'https://web.waym.app/quest/279' },
-        { id: 2, title: 'President simulator', description: 'Become a special agent in the center of a medieval city ...', imgSrc: './geotorex_small.jpg', url: 'https://web.waym.app/quest/306' },
+        { id: 2, title: 'The Geotorox', description: 'Become a special agent in the center of a medieval city ...', imgSrc: './geotorex_small.jpg', url: 'https://web.waym.app/quest/306' },
         { id: 3, title: 'In the face of danger', description: 'You found out about a catastrophe bound to happen in a year\'s time. What ...', imgSrc: './pandemic.png', url: 'https://web.waym.app/quest/268' },
-        { id: 4, title: 'A scilent killer', description: 'Something dangerous makes people abandon their homes and run away ...', imgSrc: './scilent_killer_small.jpg', url: 'https://web.waym.app/quest/303' },
+        { id: 4, title: 'A silent killer', description: 'Something dangerous makes people abandon their homes and run away ...', imgSrc: './scilent_killer_small.jpg', url: 'https://web.waym.app/quest/303' },
     ]
     const renderQuestCard = () => {
         const { basePath } = useRouter()
