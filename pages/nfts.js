@@ -6,9 +6,9 @@ import Play from "./../public/play.svg"
 import Loader from "../components/loader"
 
 const items = [
-  { id: 1, imgSrc: './nft-3.jpg', title: 'Monica’s gun for jumping between simulations', waymItem: 'The Wave', price: 1000, videoSrc: "https://www.youtube.com/embed/eBc0MuQSIHw" },
-  { id: 2, imgSrc: './nft-2.jpg', title: 'Simulation anomaly detector', waymItem: 'The Wave', price: 1000, videoSrc: "https://www.youtube.com/embed/FzCA9Lb8ZR4" },
-  { id: 3, imgSrc: './nft-1.jpg', title: 'Monica’s gun for jumping between simulations', waymItem: 'The Wave', price: 1000, videoSrc: "https://www.youtube.com/embed/qvdV-Q_8ENI" },
+  { id: 1, imgSrc: '../nft-3.jpg', title: 'Monica’s gun for jumping between simulations', waymItem: 'The Wave', price: 3000, videoSrc: "https://www.youtube.com/embed/eBc0MuQSIHw" },
+  { id: 2, imgSrc: '../nft-2.jpg', title: 'Simulation anomaly detector', waymItem: 'The Wave', price: 1000, videoSrc: "https://www.youtube.com/embed/FzCA9Lb8ZR4" },
+  { id: 3, imgSrc: '../nft-1.jpg', title: 'Simulation control terminal', waymItem: 'The Wave', price: 7000, videoSrc: "https://www.youtube.com/embed/qvdV-Q_8ENI" },
 ]
 
 export default function Nfts() {
