@@ -3,9 +3,9 @@ import { useRouter } from "next/router"
 export default function Team() {
     const team = [
         { id: 1, name: 'Svyatozar Minin', job: 'CEO', description: '8 years of experience in programming and PM', imgSrc: './Minin.jpg', greenImg: './Minin-green.jpg', link: 'https://t.me/svyatozar' },
-        { id: 2, name: 'Vitaly Vylgin', job: 'CDO', description: '10 years of experience in programming', imgSrc: './Vylgin.jpg', greenImg: './Vylgin-green.jpg', link: 'https://t.me/vylgin' },
+        { id: 2, name: 'Vitaly Vylgin', job: 'CTO', description: '10 years of experience in programming', imgSrc: './Vylgin.jpg', greenImg: './Vylgin-green.jpg', link: 'https://t.me/vylgin' },
         { id: 3, name: 'Olga Kazimirskaya', job: 'Main script writer', description: 'Author of the game metaverse concept and the central plot line', imgSrc: './Olga.jpg', greenImg: './Olga-green.jpg', link: 'https://t.me/salatchen' },
-        { id: 4, name: 'Ilnurri Zakiryanov', job: 'DEO', description: '8 years of design', imgSrc: './iz.jpg', greenImg: './iz-green.jpg', link: 'https://t.me/ilnurri' },
+        { id: 4, name: 'Ilnurri Zakiryanov', job: 'CDO', description: '8 years of design', imgSrc: './iz.jpg', greenImg: './iz-green.jpg', link: 'https://t.me/ilnurri' },
     ]
     const renderTeam = () => {
         const { basePath } = useRouter()
