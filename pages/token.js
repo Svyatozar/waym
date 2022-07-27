@@ -10,7 +10,7 @@ export default function Token() {
                     — players use it for playing quests, and creators get
                     is as reward for a good work</h3>
                 <div className="ui-section__text">
-                    <p>We will start public sale on July 2022.</p>
+                    <p>We will start public sale on December 2022.</p>
                     <p>Register now for get a pre-sale bonus!</p>
                 </div>
                 <MainButton title="Register" href="https://web.waym.app/login" />

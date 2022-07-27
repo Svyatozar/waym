@@ -4,8 +4,8 @@ export default function Team() {
     const team = [
         { id: 1, name: 'Svyatozar Minin', job: 'CEO', description: '8 years of experience in programming and PM', imgSrc: './Minin.jpg', greenImg: './Minin-green.jpg', link: 'https://t.me/svyatozar' },
         { id: 2, name: 'Vitaly Vylgin', job: 'CTO', description: '10 years of experience in programming', imgSrc: './Vylgin.jpg', greenImg: './Vylgin-green.jpg', link: 'https://t.me/vylgin' },
-        { id: 3, name: 'Olga Kazimirskaya', job: 'Main script writer', description: 'Author of the game metaverse concept and the central plot line', imgSrc: './Olga.jpg', greenImg: './Olga-green.jpg', link: 'https://t.me/salatchen' },
-        { id: 4, name: 'Ilnurri Zakiryanov', job: 'CDO', description: '8 years of design', imgSrc: './iz.jpg', greenImg: './iz-green.jpg', link: 'https://t.me/ilnurri' },
+        { id: 3, name: 'Olesya Aprelskih', job: 'Main script writer', description: 'Author of the game metaverse concept and the central plot line', imgSrc: './olesya.jpg', greenImg: './olesya_green.png', link: 'https://t.me/oaprelskikh' },
+        { id: 4, name: 'Egor Vaganow', job: 'Product Owner', description: '7 years of product management and 2 years of game design', imgSrc: './egor.jpg', greenImg: './egor_green.png', link: 'https://t.me/Egor_404' },
     ]
     const renderTeam = () => {
         const { basePath } = useRouter()

@@ -241,7 +241,7 @@ export default function Footer() {
 
 
                     </div>
-                    <div className='footer__copyright'>© 2021 WayMaker. All rights reserved</div>
+                    <div className='footer__copyright'>© 2022 WayMaker. All rights reserved</div>
                 </section>
             </div>
 
